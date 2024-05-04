@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { routesList } from './pageRoutes';
 
-const Router = ({ user }) => {
+const Router = () => {
   return (
     <Routes>
       {routesList?.map((route, index) => (
