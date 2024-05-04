@@ -1,0 +1,64 @@
+.update-main_container {
+  width: 100%;
+  height: 100%;
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .heading {
+      .main-heading {
+        font-size: 22px;
+      }
+      .product-name {
+        font-size: 16px;
+      }
+    }
+    .form-section {
+      form {
+        .inputs {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 5px;
+          .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            label {
+              font-size: 16px;
+            }
+            input {
+              padding: 10px;
+              border-radius: 6px;
+            }
+          }
+        }
+        .action {
+          margin-top: 1rem;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          gap: 10px;
+          .cancelBtn {
+            border: none;
+            color: yellowgreen;
+            padding: 4px;
+            background-color: white;
+          }
+          .submitBtn {
+            width: 80px;
+            border-radius: 4px;
+            padding: 10px;
+            color: black;
+            background-color: grey;
+          }
+          button:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+.ant-modal-body {
+  overflow: hidden;
+}
