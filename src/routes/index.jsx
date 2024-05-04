@@ -2,9 +2,10 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { routesList } from './pageRoutes';
 
-const Router = () => {
+const Router = ({ user }) => {
   return (
-    <Routes>
+    <Routes basename={process.env.PUBLIC_URL}>
+      {console.log(process.env.PUBLIC_URL)}
       {routesList?.map((route, index) => (
         <Route
           key={index}
