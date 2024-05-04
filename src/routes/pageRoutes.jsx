@@ -2,7 +2,7 @@ import Dashboard from "../pages/Dashboard";
 
 export const routesList=[
     {
-        path:'/',
+        path:'',
         title:'Dashboard',
         exact:true,
         protected:true,

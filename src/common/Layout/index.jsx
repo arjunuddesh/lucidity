@@ -5,7 +5,6 @@ const Layout=()=>{
     return(
         <div className="layout_wrapper">
             <div className="main">
-                asfsa
              <Router/>
             </div >
         </div>
