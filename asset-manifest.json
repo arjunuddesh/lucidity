@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lucidity/static/css/main.19a33c68.css",
+    "main.js": "/lucidity/static/js/main.700193ea.js",
+    "static/js/453.d644ca46.chunk.js": "/lucidity/static/js/453.d644ca46.chunk.js",
+    "index.html": "/lucidity/index.html",
+    "main.19a33c68.css.map": "/lucidity/static/css/main.19a33c68.css.map",
+    "main.700193ea.js.map": "/lucidity/static/js/main.700193ea.js.map",
+    "453.d644ca46.chunk.js.map": "/lucidity/static/js/453.d644ca46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19a33c68.css",
+    "static/js/main.700193ea.js"
+  ]
+}
