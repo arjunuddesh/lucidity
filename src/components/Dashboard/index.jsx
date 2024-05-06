@@ -87,17 +87,17 @@ const Dashboard = () => {
     },
   ];
   useEffect(() => {
-    // try {
-    //   const data = dashboardApi.getAllInventoryData();
-    //   data.then((res) => {
-    //     console.log(res);
-    //     if (res.status == 200) {
-    //       setInventoryData(res.data);
-    //     }
-    //   });
-    // } catch (err) {
-    //   console.log(err);
-    // }
+    try {
+      const data = dashboardApi.getAllInventoryData();
+      data.then((res) => {
+        console.log(res);
+        if (res.status == 200) {
+          setInventoryData(res.data);
+        }
+      });
+    } catch (err) {
+      console.log(err);
+    }
 
     getTotalQuantity();
   }, [inventoryData]);
